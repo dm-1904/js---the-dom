@@ -50,8 +50,9 @@ button { outline: none; }
 
 .container { max-width: 1140px; }
 
-.ul-default-none {
-  list-style: none;
+.ul-default-none,
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
