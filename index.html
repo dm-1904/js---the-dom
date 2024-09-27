@@ -12,6 +12,18 @@
   <title>folio</title>
 </head>
 <body>
+  <div class="theme-panel open">
+    <div class="theme-body">
+      <span>Change Theme</span>
+      <div class="btn-group">
+        <button class="switcher-btn active">Light</button>
+        <button class="switcher-btn">Dark</button>
+      </div>
+      <button class="theme-tab">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+    </div>
+  </div>
   <main class="site-wrapper">
     <header class="site-header">
       <nav class="navbar">
@@ -27,11 +39,50 @@
         </div>
       </nav>
     </header>
+
+    <!-- Hero Section -->
+     <section class="hero-bg">
+      <div class="container">
+        <div class="hero-content">
+          <div class="code-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h2 class="header-lg">Code. Eat. Sleep.</h2>
+          <div class="sub-header">I create meaningful solutions for your brands and products.
+            <br>
+            Give your customers the best experience possible.
+          </div>
+          <div class="btn btn-primary round-pill">
+            <a href="#" data-open="contact">Let's talk now</a>
+          </div>
+        </div>
+      </div>
+     </section>
   </main>
 
-  <div id="about" class="full-site-modal page-block " data-animation="zoomInOut">
+   <!-- Modals -->
+   <!-- About Page Modal -->
+  <div id="about" class="full-site-modal page-block" data-animation="zoomInOut">
     <header class="modal-header">
       <h3>ABOUT PAGE</h3>
+      <i class="fas fa-times" data-close></i>
+    </header>
+    <div class="modal-body">
+      <div class="img-wrapper">
+        <img src="./assets/images/img4.jpg" alt="head-shot">
+      </div>
+      <h2>Damon Ryon</h2>
+      <p>text 1</p>
+      <p>text 2</p>
+      <div>Email Me:</div>
+      <a href="mailto:damon.ryon@gmail.com">damon.ryon@gmail.com</a>
+    </div>
+  </div>
+
+<!-- Contact Page Modal -->
+  <div id="contact" class="full-site-modal page-block" data-animation="zoomInOut">
+    <header class="modal-header">
+      <h3>Contact PAGE</h3>
       <i class="fas fa-times" data-close></i>
     </header>
     <div class="modal-body">
