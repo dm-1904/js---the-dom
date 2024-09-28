@@ -123,6 +123,15 @@
   line-height: 1.5;
 }
 
+/* .portfolio-section {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+/* #container {
+  padding-left: 40px;
+} */
+
 .search-container label {
   align-items: center;
   position: relative;
@@ -145,6 +154,12 @@
 .search-container i.fas.fa-search {
   position: absolute;
   right: 10px;
+}
+
+.portfolio-grid {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .portfolio-filter-nav {
@@ -187,6 +202,10 @@
   height: 255px;
   object-fit: cover;
   border-radius: 8px;
+}
+
+ div.portfolio-card.problem-child {
+  width: 100%;
 }
 
 .card-popup-box {
