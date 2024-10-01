@@ -28,3 +28,27 @@
 .about-text .contact-me-block {
   font-size: 1.2rem;
 }
+
+.marquee {
+  width: var(--marquee-width);
+  height: var(--marquee-height);
+  overflow: hidden;
+  margin: 2rem auto;
+}
+
+.marquee-content {
+  list-style: none;
+  display: flex;
+  height: 100%;
+}
+
+.marquee-content li {
+  width: var(--marquee-elm-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-size: calc(var(--marquee-height) * 3 / 4);
+}
